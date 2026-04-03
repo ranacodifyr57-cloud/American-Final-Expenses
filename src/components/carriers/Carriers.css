@@ -1,0 +1,35 @@
+.carriers-section {
+  background: #f8f9fb;
+  padding: 80px 0;
+}
+
+/* Flex container: single line */
+.carriers-logos {
+  display: flex;
+  justify-content: space-between; /* spread logos evenly */
+  align-items: center;
+  flex-wrap: nowrap; /* prevent wrapping */
+  gap: 20px; /* space between logos */
+}
+
+/* Each logo box */
+.images-box {
+  flex: 0 1 auto; /* allow shrink but keep in line */
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+  text-align: center;
+}
+
+/* Images */
+.images-box img {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Hover effect */
+.images-box:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}

@@ -1,0 +1,48 @@
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin: 0 10px;
+}
+.custom-btn{
+  background-color: #f86503;   /* strong contrast color */
+  color: #fff;
+  font-size: 16px;            /* bigger text */
+  padding: 12px 22px;         /* bigger button */
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+}
+
+.custom-btn:hover {
+  background-color: #e65c00;
+}
+.phone-box {
+  font-size: 20px;     /* bigger text */
+  font-weight: 500;
+  color:rgb(24, 174, 233);
+}
+
+.phone-icon {
+  font-size: 20px;     /* bigger icon */
+}
+.navbar-nav .nav-link {
+  font-weight: 600;
+  color: #000;
+}
+.navbar-nav .nav-link {
+  font-weight: 600;
+  color: #000;
+  position: relative;
+  padding-bottom: 10px !important; /* space for underline */
+}
+
+/* ACTIVE LINK UNDERLINE */
+.navbar-nav .nav-link.active-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;   /* attaches to padding */
+  width: 100%;
+  height: 3px;
+  background-color: #ff6600;
+  border-radius: 2px;
+}

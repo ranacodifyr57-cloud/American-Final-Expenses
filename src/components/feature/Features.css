@@ -1,0 +1,21 @@
+.features-section {
+  background: #f8f9fb;
+  padding: 80px 0;
+}
+
+.feature-box {
+  padding: 20px;
+}
+
+.icon-circle {
+  width: 65px;
+  height: 65px;
+  background: #fdecc8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #f59e0b;
+  font-size: 24px;
+}

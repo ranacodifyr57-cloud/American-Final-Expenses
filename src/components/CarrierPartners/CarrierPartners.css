@@ -1,0 +1,10 @@
+/* Card hover effect with stronger shadow */
+.carrier-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.carrier-card:hover {
+  transform: scale(1.05); /* slightly bigger pop */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* stronger shadow for depth */
+}
