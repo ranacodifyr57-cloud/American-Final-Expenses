@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 const MissionSection = () => {
   return (
     <section 
-      className="py-5 text-white position-relative overflow-hidden d-flex align-items-center"
+      className="py-5 text-white position-relative overflow-hidden d-flex align-items-center mt-5"
       style={{ 
         backgroundColor: '#0a2540',
-        minHeight: '40vh'
+        minHeight: '50vh'
       }}
     >
       <Container className="text-center position-relative">

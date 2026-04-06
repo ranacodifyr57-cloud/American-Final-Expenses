@@ -5,7 +5,7 @@ import "./HeroForm.css";
 
 const HeroForm = () => {
   return (
-    <div className="hero-section d-flex align-items-center">
+    <div className="hero-section d-flex align-items-center mt-5">
       <Container>
         <Row className="align-items-center">
           

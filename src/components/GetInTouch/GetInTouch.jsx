@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const GetInTouch = () => {
   return (
-    <section className="py-5" style={{ backgroundColor: '#ebf1f7' }}>
+    <section className="py-5 mt-5 d-flex align-items-center" style={{ backgroundColor: '#ebf1f7', minHeight:'50vh' }}>
       <Container className="text-center py-4">
 
         {/* Heading */}

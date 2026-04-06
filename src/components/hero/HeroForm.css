@@ -1,5 +1,5 @@
 .hero-section {
-  min-height: 80vh;
+  min-height: 100vh;
   background: linear-gradient(rgba(0,0,50,0.7), rgba(0,0,50,0.7)),
     url("../../assets/images/hero.jpg");
   background-size: cover;
