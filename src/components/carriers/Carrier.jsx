@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { motion } from "framer-motion";
-import "./Carriers.css";
+import "./Carrier.css";
 
 // logos
 import transamerica from "../../assets/images/1.webp";
@@ -12,7 +12,7 @@ import american from "../../assets/images/5.webp";
 import cica from "../../assets/images/6.webp";
 import corebridge from "../../assets/images/7.webp";
 
-const Carriers = () => {
+const Carrier = () => {
   const images = [
     transamerica,
     aetna,
@@ -68,4 +68,4 @@ const Carriers = () => {
   );
 };
 
-export default Carriers;
+export default Carrier;

@@ -33,8 +33,8 @@ function MyNavbar() {
             <Nav.Link as={NavLink} to="/about">
               About Us
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/careers">
-              Careers
+            <Nav.Link as={NavLink} to="/carriers">
+              Carriers
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact">
               Contact

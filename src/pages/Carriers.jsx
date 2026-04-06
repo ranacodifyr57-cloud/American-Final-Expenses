@@ -2,7 +2,7 @@ import React from 'react'
 import TrustedCarriers from '../components/TrustedCarriers/TrustedCarriers'
 import CarrierPartners from '../components/CarrierPartners/CarrierPartners'
 
-const Careers = () => {
+const Carriers = () => {
   return (
     <div>
       <TrustedCarriers />
@@ -11,4 +11,4 @@ const Careers = () => {
   )
 }
 
-export default Careers
+export default Carriers
